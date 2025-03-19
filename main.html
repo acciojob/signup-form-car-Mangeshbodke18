@@ -9,79 +9,46 @@
 <body>
 	<!-- the entire body must be written by student -->
 
+<form method="post">
 
+    <label for="name">Name:</label>
+    <input type="text" placeholder="Name" id="name" required>
 
-	<form method="post">
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Email" id="email" required>
 
-		<label for="name">Name
-		<input type="text" placeholder="Name" id="name">
-		</label>
-<br>
+    <label>Gender:</label>
+    <label for="gender_m">Male</label>
+    <input type="radio" id="gender_m" name="gender">
+    <label for="gender_f">Female</label>
+    <input type="radio" id="gender_f" name="gender">
 
-		<label for="email">Email
-		<input type="email" placeholder="Email" id="email">
-		</label>
-<br>
+    <label for="cars">Choose a car:</label>
+    <select id="cars">
+        <option>--Please choose an option--</option>
+        <option>BMW</option>
+        <option>Audi</option>
+        <option>Mercedes</option>
+    </select>
 
+    <label for="age">Age:</label>
+    <input type="number" placeholder="Age" id="age" required>
 
-		
-		<label for="gender_m">male
-		<input type="Radio" id="gender_m" name="gender">
-		</label>
+    <label for="dob">DOB:</label>
+    <input type="date" id="dob" required>
 
-		
-		<label for="gender_f">female
-		<input type="Radio"  id="gender_f" name="gender">
-		</label>
+    <label for="tel">Phone Number:</label>
+    <input type="tel" placeholder="xxx-xxx-xxxx" id="tel">
 
-<br>
-		
-		<label for="cars">Car Brands
-		<select id="cars">
-			<option>--Please choose an option--</option>
-			<option>bmw</option>
-			<option>audi</option>
-			<option>mersidese</option>	
-		</select>
-			</label>
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Password" id="password" required>
 
-		<br>
+    <label for="tos">I agree to the TOS</label>
+    <input type="checkbox" id="tos">
 
-		<label for="age">Age
-		<input type="number" placeholder="Age" id="age">
-		</label>
-<br>
-		<label for="dob">DOB
-		<input type="date" id="dob">
-		</label>
+    <button type="submit">Submit</button>
+</form>
 
-	
-<br>
-		<label for="tel">Phone Number
-		<input type="tel" placeholder="xxx-xxx-xxxx" id="tel">
-		</label>
-<br>
-
-		<label for="password">Password
-		<input type="password" placeholder="Password" id="password">
-		</label>
-<br>
-
-		<label for="tos">I agree to the TOS
-			<input type="checkbox" id="tos">
-		</label>
-
-<br>
-
-		<button type="submit">submit</button>
-
-
-
-		
-		
-	</form>
-
-	
     <script type="text/javascript" src="./script.js">
 </script>
 
